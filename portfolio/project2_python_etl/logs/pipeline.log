@@ -1,0 +1,61 @@
+2026-04-27 23:38:15,926 [INFO] ============================================================
+2026-04-27 23:38:15,927 [INFO] PIPELINE START
+2026-04-27 23:38:15,927 [INFO] ============================================================
+2026-04-27 23:38:15,927 [INFO] Extracting CSV: /home/claude/portfolio/project2_python_etl/data/raw/shipments_raw.csv
+2026-04-27 23:38:15,971 [INFO]   CSV rows loaded: 5,000
+2026-04-27 23:38:15,971 [INFO] Extracting JSON: /home/claude/portfolio/project2_python_etl/data/raw/api_shipments.json
+2026-04-27 23:38:15,975 [INFO]   JSON rows loaded: 500
+2026-04-27 23:38:15,975 [INFO] Extracting carrier lookup: /home/claude/portfolio/project2_python_etl/data/raw/carrier_lookup.xlsx
+2026-04-27 23:38:16,278 [INFO] Combined source rows: 5,500
+2026-04-27 23:38:16,278 [INFO] --- TRANSFORM ---
+2026-04-27 23:38:21,911 [INFO] ============================================================
+2026-04-27 23:38:21,911 [INFO] PIPELINE START
+2026-04-27 23:38:21,912 [INFO] ============================================================
+2026-04-27 23:38:21,912 [INFO] Extracting CSV: /home/claude/portfolio/project2_python_etl/data/raw/shipments_raw.csv
+2026-04-27 23:38:21,934 [INFO]   CSV rows loaded: 5,000
+2026-04-27 23:38:21,934 [INFO] Extracting JSON: /home/claude/portfolio/project2_python_etl/data/raw/api_shipments.json
+2026-04-27 23:38:21,937 [INFO]   JSON rows loaded: 500
+2026-04-27 23:38:21,937 [INFO] Extracting carrier lookup: /home/claude/portfolio/project2_python_etl/data/raw/carrier_lookup.xlsx
+2026-04-27 23:38:22,243 [INFO] Combined source rows: 5,500
+2026-04-27 23:38:22,269 [INFO] --- TRANSFORM ---
+2026-04-27 23:38:49,207 [INFO] ============================================================
+2026-04-27 23:38:49,207 [INFO] PIPELINE START
+2026-04-27 23:38:49,208 [INFO] ============================================================
+2026-04-27 23:38:49,208 [INFO] Extracting CSV: /home/claude/portfolio/project2_python_etl/data/raw/shipments_raw.csv
+2026-04-27 23:38:49,230 [INFO]   CSV rows loaded: 5,000
+2026-04-27 23:38:49,230 [INFO] Extracting JSON: /home/claude/portfolio/project2_python_etl/data/raw/api_shipments.json
+2026-04-27 23:38:49,234 [INFO]   JSON rows loaded: 500
+2026-04-27 23:38:49,234 [INFO] Extracting carrier lookup: /home/claude/portfolio/project2_python_etl/data/raw/carrier_lookup.xlsx
+2026-04-27 23:38:49,571 [INFO] Combined source rows: 5,500
+2026-04-27 23:38:49,572 [INFO] --- TRANSFORM ---
+2026-04-27 23:39:07,937 [INFO] ============================================================
+2026-04-27 23:39:07,937 [INFO] PIPELINE START
+2026-04-27 23:39:07,937 [INFO] ============================================================
+2026-04-27 23:39:07,937 [INFO] Extracting CSV: /home/claude/portfolio/project2_python_etl/data/raw/shipments_raw.csv
+2026-04-27 23:39:07,984 [INFO]   CSV rows loaded: 5,000
+2026-04-27 23:39:07,984 [INFO] Extracting JSON: /home/claude/portfolio/project2_python_etl/data/raw/api_shipments.json
+2026-04-27 23:39:07,988 [INFO]   JSON rows loaded: 500
+2026-04-27 23:39:07,988 [INFO] Extracting carrier lookup: /home/claude/portfolio/project2_python_etl/data/raw/carrier_lookup.xlsx
+2026-04-27 23:39:08,288 [INFO] Combined source rows: 5,500
+2026-04-27 23:39:08,288 [INFO] --- TRANSFORM ---
+2026-04-27 23:39:17,173 [INFO] ============================================================
+2026-04-27 23:39:17,173 [INFO] PIPELINE START
+2026-04-27 23:39:17,173 [INFO] ============================================================
+2026-04-27 23:39:17,174 [INFO] Extracting CSV: /home/claude/portfolio/project2_python_etl/data/raw/shipments_raw.csv
+2026-04-27 23:39:17,199 [INFO]   CSV rows loaded: 5,000
+2026-04-27 23:39:17,199 [INFO] Extracting JSON: /home/claude/portfolio/project2_python_etl/data/raw/api_shipments.json
+2026-04-27 23:39:17,202 [INFO]   JSON rows loaded: 500
+2026-04-27 23:39:17,203 [INFO] Extracting carrier lookup: /home/claude/portfolio/project2_python_etl/data/raw/carrier_lookup.xlsx
+2026-04-27 23:39:17,508 [INFO] Combined source rows: 5,500
+2026-04-27 23:39:17,509 [INFO] --- TRANSFORM ---
+2026-04-27 23:39:17,539 [INFO]   Imputed 811 missing carrier codes from region mode
+2026-04-27 23:39:17,546 [WARNING]   Found 22 negative freight costs — flagged
+2026-04-27 23:39:17,549 [INFO]   Freight outliers flagged: 49
+2026-04-27 23:39:17,572 [INFO]   Removed 146 duplicate tracking numbers
+2026-04-27 23:39:17,576 [INFO] --- VALIDATE ---
+2026-04-27 23:39:17,579 [INFO]   Validation complete — 22 issues found
+2026-04-27 23:39:17,579 [INFO] --- LOAD ---
+2026-04-27 23:39:17,670 [INFO]   Loaded 5,354 rows → /home/claude/portfolio/project2_python_etl/data/output/shipments_clean.parquet
+2026-04-27 23:39:17,670 [INFO]   Validation report → /home/claude/portfolio/project2_python_etl/data/output/validation_report.csv
+2026-04-27 23:39:17,670 [INFO] PIPELINE COMPLETE in 0.5s | 5,354 rows loaded
+2026-04-27 23:39:17,670 [INFO] ============================================================

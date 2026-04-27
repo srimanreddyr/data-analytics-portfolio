@@ -1,0 +1,11 @@
+check,count,pass
+invalid_status_count,0,True
+invalid_carrier_count,0,True
+future_shipment_date_count,0,True
+pre_min_date_count,0,True
+negative_freight_count,22,False
+freight_outlier_count,46,False
+null_tracking_number,0,True
+null_shipment_date,0,True
+null_status,0,True
+null_dest_region,0,True

@@ -1,22 +1,37 @@
 📊 Data Analytics Portfolio — Sriman Reddy
-A collection of end-to-end data analytics projects showcasing skills in Python, SQL (T-SQL), data wrangling, exploratory data analysis, and business intelligence.
+End-to-end data analytics projects focused on supply chain & logistics, built with Python and SQL (T-SQL).
+Skills covered: ETL pipelines, SQL performance tuning, exploratory data analysis, and KPI reporting.
 
 🗂️ Projects
-ProjectToolsDescription(Add your project name here)Python / T-SQL(Short one-line description)(Add your project name here)Python / T-SQL(Short one-line description)
+1. 🚚 SQL Performance Tuning — Logistics Shipment Data
+Tools: T-SQL
+Focus: Query optimization on large-scale logistics shipment datasets
 
-📁 All projects are in the /portfolio folder.
+Identified slow queries using execution plans and pinpointed bottlenecks
+Applied indexing strategies, query rewrites, and CTE refactoring to reduce runtime
+Demonstrated before/after performance comparisons with measurable improvements
 
+📁 /portfolio/sql-performance-tuning
 
-🛠️ Skills Demonstrated
+2. 🔄 Python ETL Pipeline — Supply Chain Data Cleaning
+Tools: Python (pandas, NumPy)
+Focus: Automating extraction, transformation, and loading of raw supply chain data
 
-Python — pandas, NumPy, matplotlib, seaborn
-SQL (T-SQL) — joins, window functions, CTEs, stored procedures
-Data Cleaning & EDA — handling missing values, outlier detection, feature engineering
-Data Visualization — charts, dashboards, storytelling with data
-Business Analytics — translating data insights into actionable recommendations
+Built a modular ETL pipeline to ingest and standardize messy raw data for analysis
+Handled missing values, duplicate records, data type mismatches, and inconsistent formatting
+Output clean, analysis-ready datasets with validation checks and logging
 
+📁 /portfolio/python-etl-pipeline
 
-📬 Connect
+3. 📦 Supply Chain EDA — Warehouse KPI Analysis
+Tools: Python (pandas, matplotlib, seaborn)
+Focus: Exploratory analysis of warehouse operations and key performance indicators
 
-💼 LinkedIn www.linkedin.com/in/srimanreddyr
-📧 srimanreddy.r@gmail.com
+Analyzed metrics such as order fulfillment rate, inventory turnover, and on-time delivery
+Identified operational bottlenecks and seasonal demand patterns through visual analysis
+Summarized actionable insights for warehouse performance improvement
+
+📁 /portfolio/supply-chain-eda
+
+🛠️ Core Skills
+AreaTools & TechniquesSQLT-SQL, query optimization, indexing, execution plans, CTEs, window functionsPythonpandas, NumPy, matplotlib, seaborn, ETL scriptingData CleaningMissing value handling, deduplication, schema standardizationEDA & VisualizationKPI dashboards, trend analysis, distribution plotsDomainSupply chain, logistics, warehouse operations
